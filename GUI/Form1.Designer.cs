@@ -4,12 +4,12 @@ namespace GUI
     partial class Form1
     {
         /// <summary>
-        /// Required designer variable.
+        ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        ///  Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -24,8 +24,8 @@ namespace GUI
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -41,57 +41,57 @@ namespace GUI
             // lblBrand
             // 
             this.lblBrand.AutoSize = true;
-            this.lblBrand.Location = new System.Drawing.Point(52, 32);
+            this.lblBrand.Location = new System.Drawing.Point(42, 44);
             this.lblBrand.Name = "lblBrand";
-            this.lblBrand.Size = new System.Drawing.Size(57, 20);
+            this.lblBrand.Size = new System.Drawing.Size(64, 25);
             this.lblBrand.TabIndex = 0;
             this.lblBrand.Text = "Marca:";
             // 
             // txtBrand
             // 
-            this.txtBrand.Location = new System.Drawing.Point(56, 58);
+            this.txtBrand.Location = new System.Drawing.Point(47, 72);
             this.txtBrand.Name = "txtBrand";
-            this.txtBrand.Size = new System.Drawing.Size(372, 26);
+            this.txtBrand.Size = new System.Drawing.Size(196, 31);
             this.txtBrand.TabIndex = 1;
             // 
             // txtRam
             // 
-            this.txtRam.Location = new System.Drawing.Point(56, 124);
+            this.txtRam.Location = new System.Drawing.Point(47, 157);
             this.txtRam.Name = "txtRam";
-            this.txtRam.Size = new System.Drawing.Size(372, 26);
+            this.txtRam.Size = new System.Drawing.Size(196, 31);
             this.txtRam.TabIndex = 3;
             // 
             // lblRam
             // 
             this.lblRam.AutoSize = true;
-            this.lblRam.Location = new System.Drawing.Point(52, 98);
+            this.lblRam.Location = new System.Drawing.Point(42, 129);
             this.lblRam.Name = "lblRam";
-            this.lblRam.Size = new System.Drawing.Size(47, 20);
+            this.lblRam.Size = new System.Drawing.Size(55, 25);
             this.lblRam.TabIndex = 2;
-            this.lblRam.Text = "Ram:";
+            this.lblRam.Text = "RAM:";
             // 
             // txtStorage
             // 
-            this.txtStorage.Location = new System.Drawing.Point(56, 191);
+            this.txtStorage.Location = new System.Drawing.Point(47, 249);
             this.txtStorage.Name = "txtStorage";
-            this.txtStorage.Size = new System.Drawing.Size(372, 26);
+            this.txtStorage.Size = new System.Drawing.Size(196, 31);
             this.txtStorage.TabIndex = 5;
             // 
             // lblStorage
             // 
             this.lblStorage.AutoSize = true;
-            this.lblStorage.Location = new System.Drawing.Point(52, 168);
+            this.lblStorage.Location = new System.Drawing.Point(42, 221);
             this.lblStorage.Name = "lblStorage";
-            this.lblStorage.Size = new System.Drawing.Size(131, 20);
+            this.lblStorage.Size = new System.Drawing.Size(147, 25);
             this.lblStorage.TabIndex = 4;
             this.lblStorage.Text = "Armazenamento:";
             // 
             // btnSend
             // 
             this.btnSend.BackColor = System.Drawing.Color.Black;
-            this.btnSend.Location = new System.Drawing.Point(353, 246);
+            this.btnSend.Location = new System.Drawing.Point(47, 321);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(75, 39);
+            this.btnSend.Size = new System.Drawing.Size(196, 34);
             this.btnSend.TabIndex = 6;
             this.btnSend.Text = "Enviar";
             this.btnSend.UseVisualStyleBackColor = false;
@@ -99,10 +99,10 @@ namespace GUI
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(484, 450);
+            this.ClientSize = new System.Drawing.Size(393, 450);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtStorage);
             this.Controls.Add(this.lblStorage);
@@ -112,7 +112,8 @@ namespace GUI
             this.Controls.Add(this.lblBrand);
             this.ForeColor = System.Drawing.Color.White;
             this.Name = "Form1";
-            this.Text = "Mr Robot";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
