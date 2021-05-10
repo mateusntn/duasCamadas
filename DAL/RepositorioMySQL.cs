@@ -25,10 +25,10 @@ namespace DAL
             finally { connection.Close(); }
         }
 
-        //public Laptop Consult(string brand)
-        //{
-        //    return null;
-        //}
+        public void Delete(string v)
+        {
+            throw new NotImplementedException();
+        }
 
         public Laptop Consult(string brand)
         {
