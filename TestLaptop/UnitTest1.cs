@@ -2,6 +2,7 @@ using DAL;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models;
 using System;
+using System.Collections.Generic;
 
 namespace TestLaptop
 {
@@ -11,7 +12,7 @@ namespace TestLaptop
         [TestMethod]
         public void CreateLaptop()
         {
-            RepositorioMySQL rep = new RepositorioMySQL();
+            IRepositorio rep = new RepositorioMySQL();
             try
             {
                 rep.Create(new Laptop("Dell Latitude 5410", 16 , 500));
@@ -28,17 +29,17 @@ namespace TestLaptop
         [TestMethod]
         public void DeleteLaptop()
         {
-            RepositorioMySQL rep = new RepositorioMySQL();
+            IRepositorio rep = new RepositorioMySQL();
             try
             {
-                rep.Delete("Dell");
+                rep.Delete("Dell Latitude 5410");
 
             }
             catch (Exception ex)
             {
 
             }
-            Assert.IsNull(rep.Consult("Dell"));
+            Assert.IsNull(rep.Consult("Dell Latitude 5410"));
 
         }
 
@@ -46,10 +47,10 @@ namespace TestLaptop
         public void ConsultLaptop()
         {
             Laptop lap = null;
-            RepositorioMySQL rep = new RepositorioMySQL();
+            IRepositorio rep = new RepositorioMySQL();
             try
             {
-                lap = rep.Consult("Dell");
+                lap = rep.Consult("Lenovo");
 
             }
             catch (Exception ex)
@@ -57,6 +58,24 @@ namespace TestLaptop
 
             }
             Assert.IsNotNull(lap);
+
+        }
+
+        [TestMethod]
+        public void ListLaptops()
+        {
+            List<Laptop> laptops = null;
+            IRepositorio rep = new RepositorioMySQL();
+            try
+            {
+                laptops = rep.List();
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+            Assert.IsNotNull(laptops);
 
         }
     }

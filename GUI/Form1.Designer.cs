@@ -36,6 +36,8 @@ namespace GUI
             this.txtStorage = new System.Windows.Forms.TextBox();
             this.lblStorage = new System.Windows.Forms.Label();
             this.btnSend = new System.Windows.Forms.Button();
+            this.gridLaptops = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.gridLaptops)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBrand
@@ -88,7 +90,7 @@ namespace GUI
             // 
             // btnSend
             // 
-            this.btnSend.BackColor = System.Drawing.Color.Black;
+            this.btnSend.BackColor = System.Drawing.Color.White;
             this.btnSend.Location = new System.Drawing.Point(47, 321);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(196, 34);
@@ -97,12 +99,23 @@ namespace GUI
             this.btnSend.UseVisualStyleBackColor = false;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
+            // gridLaptops
+            // 
+            this.gridLaptops.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridLaptops.Location = new System.Drawing.Point(324, 44);
+            this.gridLaptops.Name = "gridLaptops";
+            this.gridLaptops.RowHeadersWidth = 62;
+            this.gridLaptops.RowTemplate.Height = 33;
+            this.gridLaptops.Size = new System.Drawing.Size(660, 311);
+            this.gridLaptops.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(393, 450);
+            this.ClientSize = new System.Drawing.Size(1013, 387);
+            this.Controls.Add(this.gridLaptops);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtStorage);
             this.Controls.Add(this.lblStorage);
@@ -110,10 +123,11 @@ namespace GUI
             this.Controls.Add(this.lblRam);
             this.Controls.Add(this.txtBrand);
             this.Controls.Add(this.lblBrand);
-            this.ForeColor = System.Drawing.Color.White;
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gridLaptops)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,6 +142,7 @@ namespace GUI
         private System.Windows.Forms.TextBox txtStorage;
         private System.Windows.Forms.Label lblStorage;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.DataGridView gridLaptops;
     }
 }
 

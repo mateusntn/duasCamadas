@@ -22,10 +22,11 @@ namespace GUI
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            RepositorioMySQL rep = new RepositorioMySQL();
+            IRepositorio rep = new RepositorioMySQL();
             try
             {
                 rep.Create(laptop: new Laptop(txtBrand.Text, int.Parse(txtRam.Text), int.Parse(txtStorage.Text)));
+                ListLaptops();
                 MessageBox.Show(text: $"Notebook {txtBrand.Text} de {txtRam.Text}GB de RAM e {txtStorage.Text} de armazenamento foi adicionado.");
             }
             catch (Exception ex)
@@ -36,7 +37,22 @@ namespace GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            ListLaptops();
+        }
 
+        private void ListLaptops()
+        {
+            IRepositorio rep = new RepositorioMySQL();
+            try
+            {
+                gridLaptops.DataSource = null;
+                gridLaptops.DataSource = rep.List();
+                gridLaptops.Refresh();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocorreu um erro: {ex.Message}");
+            }
         }
     }
 }
