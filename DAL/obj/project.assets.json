@@ -275,6 +275,16 @@
             "rid": "win"
           }
         }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
       }
     }
   },
@@ -831,10 +841,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Models >= 1.0.0",
       "MySql.Data >= 8.0.24"
     ]
   },
@@ -845,11 +861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -869,7 +885,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

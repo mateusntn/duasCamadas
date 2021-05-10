@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using DAL;
+using Models;
 
 namespace GUI
 {
@@ -22,22 +23,15 @@ namespace GUI
         private void btnSend_Click(object sender, EventArgs e)
         {
             RepositorioMySQL rep = new RepositorioMySQL();
-            MySqlConnection connection = new MySqlConnection(connectionString: "server=localhost;user id=root;pwd=7890;database=duas_camadas;allowuservariables=True");
             try
             {
-                connection.Open();
-                MySqlCommand cmd = new MySqlCommand(cmdText: $"INSERT INTO laptops (brand, ram, storage) values (@Brand, @Ram, @Storage)", connection);
-                cmd.Parameters.AddWithValue(parameterName: "@Brand", txtBrand.Text);
-                cmd.Parameters.AddWithValue(parameterName: "@Ram", txtRam.Text);
-                cmd.Parameters.AddWithValue(parameterName: "@Storage", txtStorage.Text);
-                cmd.ExecuteNonQuery();
-                MessageBox.Show(text: "Registro salvo com sucesso!");
+                rep.Create(laptop: new Laptop(txtBrand.Text, int.Parse(txtRam.Text), int.Parse(txtStorage.Text)));
+                MessageBox.Show(text: $"Notebook {txtBrand.Text} de {txtRam.Text}GB de RAM e {txtStorage.Text} de armazenamento foi adicionado.");
             }
             catch (Exception ex)
             {
-                MessageBox.Show(text: "Ocorreu um erro ao tentar salvar.");
+                MessageBox.Show(text: $"Ocorreu um erro: {ex.Message}");
             }
-            finally { connection.Close(); }
         }
 
         private void Form1_Load(object sender, EventArgs e)

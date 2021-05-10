@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj": {}
+    "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj": {
+    "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,7 +31,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -68,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj": {
+    "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
+        "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
+        "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
         "packagesPath": "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\GUI\\obj\\",
+        "outputPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\GUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,8 +100,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj"
+              "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj"
               }
             }
           }
@@ -133,6 +137,64 @@
             },
             "Microsoft.WindowsDesktop.App.WindowsForms": {
               "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mateus.a.de.almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"

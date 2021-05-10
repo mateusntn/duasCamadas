@@ -9,6 +9,7 @@ namespace Models
         private int ram;
         private int storage;
 
+        public Laptop() { }
         public Laptop(string brand, int ram, int storage)
         {
             Brand = brand;

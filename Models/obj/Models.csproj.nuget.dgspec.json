@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\Models\\Models.csproj": {}
+    "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\Models\\Models.csproj": {
+    "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\Models\\obj\\",
+        "outputPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

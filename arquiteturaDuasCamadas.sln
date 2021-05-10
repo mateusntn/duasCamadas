@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{ACB95BA6-45C1-4362-B5EE-61365ADBA800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI", "GUI\GUI.csproj", "{ACB95BA6-45C1-4362-B5EE-61365ADBA800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{D10970BC-0FD5-4640-9632-5D9D3B22E1C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{D10970BC-0FD5-4640-9632-5D9D3B22E1C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{927FAF5F-32D5-4070-97D2-135D9B698DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{927FAF5F-32D5-4070-97D2-135D9B698DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLaptop", "TestLaptop\TestLaptop.csproj", "{5FDAC5A7-E8B9-4854-889A-2A78C53555F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{927FAF5F-32D5-4070-97D2-135D9B698DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{927FAF5F-32D5-4070-97D2-135D9B698DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{927FAF5F-32D5-4070-97D2-135D9B698DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDAC5A7-E8B9-4854-889A-2A78C53555F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDAC5A7-E8B9-4854-889A-2A78C53555F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDAC5A7-E8B9-4854-889A-2A78C53555F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDAC5A7-E8B9-4854-889A-2A78C53555F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -280,6 +280,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Models": "1.0.0",
           "MySql.Data": "8.0.24"
         },
         "compile": {
@@ -287,6 +288,16 @@
         },
         "runtime": {
           "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
         }
       }
     }
@@ -849,6 +860,11 @@
       "type": "project",
       "path": "../DAL/DAL.csproj",
       "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -864,11 +880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
+      "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
       "packagesPath": "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\GUI\\obj\\",
+      "outputPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\GUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -889,8 +905,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\mateus.a.de.almeida\\source\\repos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj"
+            "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\DAL\\DAL.csproj"
             }
           }
         }
