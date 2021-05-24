@@ -10,7 +10,7 @@ namespace DAL
 {
     class RepositorioContext : DbContext
     {
-        public RepositorioContext(): base() { }
+        public RepositorioContext(): base() { } 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Data Source=WINAPVUUCDEC8EK\SQLEXPRESS;Initial Catalog=duasCamadas;Integrated Security=True");
