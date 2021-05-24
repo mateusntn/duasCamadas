@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tE6m0vk118XFucrpLeoBkTVNWetEIHuZQMHZTEiXB4yzZm890CGnFZLXPungRjGH9VrGYacGC0xp0G2orAzDJA==",
+  "dgSpecHash": "mmJ/jLmcF6yk0gBIRgnXSlORVR/e8vP8kPQ2f8FKZPqh2m5Xdas2jAgO20p4WCut3CrJFpJHzqiI0l8Ppr64YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projects\\arquiteturaDuasCamadas\\TestLaptop\\TestLaptop.csproj",
   "expectedPackageFiles": [
@@ -47,7 +47,8 @@
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mstest.testadapter\\2.1.1\\mstest.testadapter.2.1.1.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512",
-    "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mysql.data\\8.0.24\\mysql.data.8.0.24.nupkg.sha512",
+    "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mysql.data\\8.0.25\\mysql.data.8.0.25.nupkg.sha512",
+    "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mysql.entityframeworkcore\\5.0.3.1\\mysql.entityframeworkcore.5.0.3.1.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",

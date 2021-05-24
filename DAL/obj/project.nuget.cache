@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "luawp73RN91Vkb2qS9NSshz2BewWpQUMKMm1r7HDfpT7rgIf2oi6H8HvyXya/KEftjCyMpx5aMja/fNakhtTSw==",
+  "dgSpecHash": "AEoqng+9u6P5nKT2kfHVislwnO62tMCK3UOeEm68fLBnyAWBp0FsdjGHTSmaz9AuhZfRtuou77ve+R6GJ8yI+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projects\\arquiteturaDuasCamadas\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
@@ -36,7 +36,8 @@
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mysql.data\\8.0.24\\mysql.data.8.0.24.nupkg.sha512",
+    "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mysql.data\\8.0.25\\mysql.data.8.0.25.nupkg.sha512",
+    "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mysql.entityframeworkcore\\5.0.3.1\\mysql.entityframeworkcore.5.0.3.1.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",

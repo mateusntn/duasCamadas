@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "ireV8SYG7JcIx/pjhN+HYzHFKlSZVzQvvlOw/Rc1oRs649XzLc+rCGMr0Kyzmx17wzXU4wS2GRdG1YobCRi+zg==",
-  "success": true,
+  "dgSpecHash": "65OFjNJ17PkOOmZkzRgP+zHq+td72H/t2w85egQNXXlS93pDtI3XnmdOhF7TeQDLDjPAm8BgepspzODdxFE4HQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projects\\arquiteturaDuasCamadas\\GUI\\GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
@@ -37,6 +37,7 @@
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mysql.data\\8.0.24\\mysql.data.8.0.24.nupkg.sha512",
+    "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\mysql.entityframeworkcore\\5.0.3.1\\mysql.entityframeworkcore.5.0.3.1.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
@@ -108,5 +109,15 @@
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\mateus.a.de.almeida\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: MySql.Data from 8.0.25 to 8.0.24. Reference the package directly from the project to select a different version. \r\n GUI -> DAL -> MySql.EntityFrameworkCore 5.0.3.1 -> MySql.Data (>= 8.0.25) \r\n GUI -> MySql.Data (>= 8.0.24)",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }

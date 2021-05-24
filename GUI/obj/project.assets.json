@@ -474,6 +474,19 @@
           "lib/net5.0/Zstandard.Net.dll": {}
         }
       },
+      "MySql.EntityFrameworkCore/5.0.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.3",
+          "MySql.Data": "8.0.25"
+        },
+        "compile": {
+          "lib/netstandard2.1/MySql.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MySql.EntityFrameworkCore.dll": {}
+        }
+      },
       "Newtonsoft.Json/10.0.1": {
         "type": "package",
         "dependencies": {
@@ -1599,7 +1612,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.6",
           "Models": "1.0.0",
-          "MySql.Data": "8.0.24"
+          "MySql.EntityFrameworkCore": "5.0.3.1"
         },
         "compile": {
           "bin/placeholder/DAL.dll": {}
@@ -2414,6 +2427,19 @@
         "lib/netstandard2.1/Zstandard.Net.dll",
         "mysql.data.8.0.24.nupkg.sha512",
         "mysql.data.nuspec"
+      ]
+    },
+    "MySql.EntityFrameworkCore/5.0.3.1": {
+      "sha512": "I2TiW52fssDV9yu0nfxNTGpqEgsDaceUl1ZuSbcLa2EaEt+HmHCR8Cc8O0kDqfvnIRWPwAD/RMm/KPRKRsk6cA==",
+      "type": "package",
+      "path": "mysql.entityframeworkcore/5.0.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/MySql.EntityFrameworkCore.dll",
+        "lib/netstandard2.1/MySql.EntityFrameworkCore.xml",
+        "mysql.entityframeworkcore.5.0.3.1.nupkg.sha512",
+        "mysql.entityframeworkcore.nuspec"
       ]
     },
     "Newtonsoft.Json/10.0.1": {
@@ -6126,5 +6152,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: MySql.Data from 8.0.25 to 8.0.24. Reference the package directly from the project to select a different version. \r\n GUI -> DAL -> MySql.EntityFrameworkCore 5.0.3.1 -> MySql.Data (>= 8.0.25) \r\n GUI -> MySql.Data (>= 8.0.24)",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }
