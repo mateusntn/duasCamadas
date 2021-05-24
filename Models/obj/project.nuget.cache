@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9D+nZMirO2hzarQEmIbjx8xqvRnYoAYV8wn0zV3LzwWX1zOViTIxoQ5560vyAVVxjmUWaR22wRT+MDPXrzlX+A==",
+  "dgSpecHash": "lsBe3BQzUzrPMykT4XhJw00vds60IGm59tc/vC84KzM0UJZlp4xPTmPEPfSRcaFEnZnn83EClorS8AacVDuIBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projetos\\arquiteturaDuasCamadas\\Models\\Models.csproj",
+  "projectFilePath": "C:\\Users\\mateus.a.de.almeida\\Desktop\\projects\\arquiteturaDuasCamadas\\Models\\Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

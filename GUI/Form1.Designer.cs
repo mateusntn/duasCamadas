@@ -102,11 +102,11 @@ namespace GUI
             // gridLaptops
             // 
             this.gridLaptops.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridLaptops.Location = new System.Drawing.Point(324, 44);
+            this.gridLaptops.Location = new System.Drawing.Point(296, 44);
             this.gridLaptops.Name = "gridLaptops";
             this.gridLaptops.RowHeadersWidth = 62;
             this.gridLaptops.RowTemplate.Height = 33;
-            this.gridLaptops.Size = new System.Drawing.Size(660, 311);
+            this.gridLaptops.Size = new System.Drawing.Size(776, 311);
             this.gridLaptops.TabIndex = 7;
             // 
             // Form1
@@ -114,7 +114,7 @@ namespace GUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1013, 387);
+            this.ClientSize = new System.Drawing.Size(1140, 387);
             this.Controls.Add(this.gridLaptops);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtStorage);
